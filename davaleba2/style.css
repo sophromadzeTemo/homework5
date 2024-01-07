@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  background-color: rgb(57, 56, 56);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+li:hover {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
